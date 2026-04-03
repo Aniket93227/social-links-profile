@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aniket Damedhar | Social Links Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <button
+      class="theme-toggle"
+      id="themeToggle"
+      type="button"
+      aria-label="Toggle color theme"
+      title="Toggle theme"
+    >
+      <span class="theme-toggle__icon" aria-hidden="true">T</span>
+    </button>
+
+    <section class="profile-card" aria-label="Social links profile card">
+      <div class="profile-card__glow" aria-hidden="true"></div>
+
+      <img
+        class="profile-avatar"
+        src="assets/images/aniket pic.png"
+        alt="Aniket Damedhar"
+      >
+
+      <div class="profile-header">
+        <p class="profile-role">B.Tech Computer Engineering Student</p>
+        <h1>Aniket Damedhar</h1>
+        <p class="profile-location">Pune, Maharashtra, India</p>
+      </div>
+
+      <p class="profile-bio">
+        Passionate about full-stack development, UI design, and data-driven solutions.
+      </p>
+
+      <div class="status-pill">
+        <span class="status-dot" aria-hidden="true"></span>
+        <span id="statusText">Open to internships and exciting collaborations</span>
+      </div>
+
+      <section class="info-grid" aria-label="Highlights">
+        <article class="info-card">
+          <p class="info-card__label">Focus</p>
+          <p class="info-card__value">Full-stack apps and clean user experiences</p>
+        </article>
+        <article class="info-card">
+          <p class="info-card__label">Learning</p>
+          <p class="info-card__value">Data structures, backend systems, and analytics</p>
+        </article>
+      </section>
+
+      <nav class="social-links" aria-label="Social links">
+        <a class="social-link" href="https://github.com/" target="_blank" rel="noreferrer">
+          GitHub
+        </a>
+        <a class="social-link" href="https://linkedin.com/" target="_blank" rel="noreferrer">
+          LinkedIn
+        </a>
+        <a class="social-link" href="mailto:aniket.damedhar23@pccoepune.org">
+          Email
+        </a>
+      </nav>
+
+      <section class="content-section" aria-labelledby="contact-heading">
+        <div class="section-heading">
+          <h2 id="contact-heading">Contact</h2>
+        </div>
+
+        <div class="contact-list">
+          <a class="contact-item" href="mailto:aniket.damedhar23@pccoepune.org">
+            <span class="contact-item__label">Email</span>
+            <span class="contact-item__value">aniket.damedhar23@pccoepune.org</span>
+          </a>
+
+          <a class="contact-item" href="https://linkedin.com/" target="_blank" rel="noreferrer">
+            <span class="contact-item__label">LinkedIn</span>
+            <span class="contact-item__value">Let's connect professionally</span>
+          </a>
+
+          <a class="contact-item" href="https://github.com/" target="_blank" rel="noreferrer">
+            <span class="contact-item__label">GitHub</span>
+            <span class="contact-item__value">Explore code and side projects</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="projects-heading">
+        <div class="section-heading">
+          <h2 id="projects-heading">Featured Projects</h2>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card">
+            <div class="project-card__top">
+              <h3>Campus Connect</h3>
+              <span class="project-badge">Web App</span>
+            </div>
+            <p>
+              A student-focused platform concept for notices, resources, and event coordination.
+            </p>
+          </article>
+
+          <article class="project-card">
+            <div class="project-card__top">
+              <h3>Insight Dashboard</h3>
+              <span class="project-badge">Data</span>
+            </div>
+            <p>
+              A visual analytics idea for turning raw data into clear, decision-ready dashboards.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" aria-labelledby="skills-heading">
+        <div class="section-heading">
+          <h2 id="skills-heading">Quick Skills</h2>
+        </div>
+
+        <div class="skill-tags">
+          <span class="skill-tag">HTML</span>
+          <span class="skill-tag">CSS</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">UI Design</span>
+          <span class="skill-tag">Problem Solving</span>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
